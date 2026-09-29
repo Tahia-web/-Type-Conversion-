@@ -9,6 +9,7 @@ public class bank {
 custdeposits=tahia.nextInt();
         System.out.println(" enter the rate " );
 rate= tahia.nextFloat();
+//implicit convesion
 double interest=custdeposits*rate/100;
 String interestasastring=Double.toString(interest);
     }
