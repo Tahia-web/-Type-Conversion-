@@ -4,6 +4,7 @@ public class bank {
         int custdeposits;
         float rate;
         Scanner tahia = new Scanner(System.in);
+        //scanner class
         System.out.println(" please enter the customer deposit"  );
 custdeposits=tahia.nextInt();
         System.out.println(" enter the rate " );
