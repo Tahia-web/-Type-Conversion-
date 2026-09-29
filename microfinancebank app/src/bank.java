@@ -3,6 +3,10 @@ public class bank {
     public static void main(String[] args) {
         int custdeposits;
         float rate;
-
+        Scanner tahia = new Scanner(System.in);
+        System.out.println(" please enter the customer deposit"  );
+custdeposits=tahia.nextInt();
+        System.out.println(" enter the rate " );
+rate= tahia.nextFloat();
     }
 }
