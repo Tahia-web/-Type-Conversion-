@@ -12,5 +12,7 @@ rate= tahia.nextFloat();
 //implicit convesion
 double interest=custdeposits*rate/100;
 String interestasastring=Double.toString(interest);
+int roundedinterest=(int)interest;
+
     }
 }
